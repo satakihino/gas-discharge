@@ -30,7 +30,7 @@ if(!localStorage.getItem('name'))
     setUserName();
 } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Добро пожаловать снова,' + storedName;
+    myHeading.textContent = 'До-о-обро пожаловать снова,' + storedName;
 }
 
 myButton.onclick = function ()
