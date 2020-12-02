@@ -15,7 +15,7 @@ else
 }
 
 var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h6');
+var myHeading = document.getElementById('heading');
 
 function setUserName ()
 {
@@ -30,10 +30,22 @@ if(!localStorage.getItem('name'))
     setUserName();
 } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'До-о-обро пожаловать снова,' + storedName;
+    myHeading.textContent = 'Добро пожаловать снова,' + storedName;
 }
 
 myButton.onclick = function ()
 {
     setUserName();
+}
+
+var ButtonSend = document.getElementById('send');
+
+function ItClicked ()
+{
+    var youclicked = alert ('Отправлено!');
+}
+
+ButtonSend.onclick = function ()
+{
+    ItClicked();
 }

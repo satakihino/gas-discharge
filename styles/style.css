@@ -8,6 +8,7 @@ h1
 {
     font-size: 32px;
     text-align: center;
+    text-shadow: 1px 1px 1px rgb(185, 185, 185);
 }
 
 p, ul, li 
@@ -15,6 +16,7 @@ p, ul, li
     font-size: 14px;
     line-height: 1,5;
     letter-spacing: 1 px;
+    text-align: justify;
 }
 
 body
@@ -23,16 +25,20 @@ width: 1000px;
 margin: 0 auto;
 background-color: #ffffff;
 padding: 0px 20px 20px 20px;
-border: 1px solid rgb(219, 219, 219);
-text-align: justify;
+border: 1px rgb(219, 219, 219);
 }
 
-h1{
-    text-shadow: 1px 1px 1px rgb(185, 185, 185);
+
+button
+{
+margin-left: auto;
+}
+
+div{
+    display:flex;
 }
 img
 {
     display: block;
     margin: 0 auto;
-
 }
