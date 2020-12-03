@@ -1,0 +1,30 @@
+html
+{
+    font-family: 'Nunito', sans-serif;
+    background-color: #eeeeee;
+}
+body
+{
+width: 550px;
+margin: 0 auto;
+background-color: #ffffff;
+padding: 0px 20px 0px 20px;
+border: 1px rgb(219, 219, 219);
+}
+h1
+{
+    font-size: 24px;
+    text-align: center;
+}
+h2
+{
+    font-size: 18px;
+}
+p 
+{
+    font-size: 14px;
+    line-height: 1,5;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
