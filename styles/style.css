@@ -40,6 +40,7 @@ border: 1px rgb(219, 219, 219);
 
 #change
 {
+    margin-top: 10px;
 margin-left: auto;
 margin-right: 28px;
 padding: 1px 30px;
@@ -58,7 +59,7 @@ transition: all 150ms ease-in-out;
 
 #heading
 {
-margin: 5px 10px;
+margin: 10px 10px;
 padding: 1px 30px;
 color: rgb(0, 0, 0);
 overflow: hidden;
