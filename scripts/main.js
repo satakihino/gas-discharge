@@ -21,7 +21,7 @@ function setUserName ()
 {
     var myName = prompt ('Пожалуйста, введите имя.');
     localStorage.setItem('name', myName);
-    myHeading.textContent = 'Добро пожаловать,' + myName;
+    myHeading.textContent = 'Добро пожаловать, ' + myName + '!';
 
 }
 
@@ -30,7 +30,7 @@ if(!localStorage.getItem('name'))
     setUserName();
 } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Добро пожаловать снова,' + storedName;
+    myHeading.textContent = 'Добро пожаловать снова, ' + storedName + '!';
 }
 
 myButton.onclick = function ()

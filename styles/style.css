@@ -8,7 +8,6 @@ h1
 {
     font-size: 32px;
     text-align: center;
-    text-shadow: 1px 1px 1px rgb(240, 240, 240);
 }
 
 p, ul, li 
@@ -17,6 +16,11 @@ p, ul, li
     line-height: 1,5;
     letter-spacing: 1px;
     text-align: justify;
+}
+
+p
+{
+    text-indent: 40px;
 }
 
 body
@@ -28,17 +32,63 @@ padding: 0px 20px 20px 20px;
 border: 1px rgb(219, 219, 219);
 }
 
-button
+
+#ge
 {
-margin-left: auto;
+    display: flex;
 }
 
-div{
-    display:flex;
+#change
+{
+margin-left: auto;
+margin-right: 28px;
+padding: 1px 30px;
+background-color:rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);
+border: none;
+-webkit-transition: all 150ms ease-in-out;
+transition: all 150ms ease-in-out;
 }
+#change:hover 
+{
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+}
+
+
+
+#heading
+{
+margin: 5px 10px;
+padding: 1px 30px;
+color: rgb(0, 0, 0);
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
 
 img
 {
     display: block;
     margin: 0 auto;
+}
+
+
+nav
+{
+    display: flex;
+}
+#d1 
+{
+    margin: 5px 10px;
+    padding: 20px 96px;
+    border-color: #3498db;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px rgb(255, 255, 255) inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+#d1:hover 
+{
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
 }
