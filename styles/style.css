@@ -4,25 +4,6 @@ html
     background-color: #eeeeee;
 }
 
-h1
-{
-    font-size: 32px;
-    text-align: center;
-}
-
-p, ul, li 
-{
-    font-size: 14px;
-    line-height: 1,5;
-    letter-spacing: 1px;
-    text-align: justify;
-}
-
-p
-{
-    text-indent: 40px;
-}
-
 body
 {
 width: 1000px;
@@ -68,23 +49,23 @@ nav
 
 #homepage:hover 
 {
-        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+        box-shadow: 0 0 10px 0 #000000 inset;
 }
 #contacts:hover 
 {
-        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+        box-shadow: 0 0 10px 0 #000000 inset;
 }
 #links:hover 
 {
-        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+        box-shadow: 0 0 10px 0 #000000 inset;
 }
 #plans:hover 
 {
-        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+        box-shadow: 0 0 10px 0 #000000 inset;
 }
 #news:hover 
 {
-        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+        box-shadow: 0 0 10px 0 #000000 inset;
 }
 
 
@@ -148,3 +129,22 @@ img
 }
 
 
+
+h1
+{
+    font-size: 32px;
+    text-align: center;
+}
+
+p, ul, li 
+{
+    font-size: 14px;
+    line-height: 1,5;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+p
+{
+    text-indent: 40px;
+}
