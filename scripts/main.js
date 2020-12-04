@@ -14,7 +14,7 @@ else
 }
 }
 
-var myButton = document.querySelector('button');
+var myButton = document.getElementById('change');
 var myHeading = document.getElementById('heading');
 
 function setUserName ()

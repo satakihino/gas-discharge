@@ -33,6 +33,61 @@ border: 1px rgb(219, 219, 219);
 -webkit-font-smoothing: antialiased;
 }
 
+nav
+{
+    display: flex;
+}
+#news, #contacts
+{
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 40px 85px;
+    background-color:#0056b9;
+    border-color: rgb(255, 255, 255);
+    border: none;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    color:rgb(255, 255, 255);
+}
+
+
+#homepage, #plans, #links
+{
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 40px 40px;
+    background-color:#0056b9;
+    border-color: rgb(255, 255, 255);
+    border: none;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    color:rgb(255, 255, 255);
+}
+
+#homepage:hover 
+{
+        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+}
+#contacts:hover 
+{
+        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+}
+#links:hover 
+{
+        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+}
+#plans:hover 
+{
+        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+}
+#news:hover 
+{
+        box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+}
+
+
 
 #change_user
 {
@@ -43,7 +98,7 @@ border: 1px rgb(219, 219, 219);
 {
 margin-top: 10px;
 margin-left: auto;
-margin-right: 5px;
+margin-right: 10px;
 padding: 1px 30px;
 background-color:#00bcef;
 border-color: rgb(255, 255, 255);
@@ -73,6 +128,9 @@ color:rgb(255, 255, 255);
 {
     box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
 }
+
+
+
 #heading
 {
 margin: 10px 10px;
@@ -83,7 +141,6 @@ white-space: nowrap;
 text-overflow: ellipsis;
 }
 
-
 img
 {
     display: block;
@@ -91,35 +148,3 @@ img
 }
 
 
-nav
-{
-    display: flex;
-}
-#d1 
-{
-
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 100px;
-    border-color: #3498db;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 0 40px 40px #0056b9 inset, 0 0 0 0 #3498db;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
-}
-#d1:hover 
-{
-    color:rgb(0, 0, 0);
-    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
-}
-
-a 
-{color:rgb(255, 255, 255);
-text-decoration: none; }
-a:link { text-decoration: none; }
-a:-webkit-any-link { text-decoration: none; }
-a:hover
-{
-    color:black;
-}
