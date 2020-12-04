@@ -5,11 +5,12 @@ html
 }
 body
 {
-width: 505px;
+width: 1000px;
 margin: 0 auto;
 background-color: #ffffff;
-padding: 0px 20px 0px 20px;
+padding: 0px 20px 20px 20px;
 border: 1px rgb(219, 219, 219);
+-webkit-font-smoothing: antialiased;
 }
 h1
 {
@@ -29,4 +30,24 @@ p
     text-align: justify;
 }
 
+nav
+{
+    display: flex;
+}
+#d1 
+{
 
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 100px;
+    border-color: #3498db;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 40px 40px #0056b9 inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+#d1:hover 
+{
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+}
