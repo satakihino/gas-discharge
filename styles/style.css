@@ -17,81 +17,28 @@ border: 1px rgb(219, 219, 219);
 nav
 {
     display: flex;
+    margin: 0px auto; 
+    justify-content: center;
 }
-#news, #contacts
+
+#plans, #change, #homepage,#news,#contacts,  #links
+
 {
-    margin-top:10px;
-    margin-left:auto;
-    margin-right:auto;
-    padding: 40px 85px;
+   
+padding: 20px 50px; 
     background-color:#0056b9;
     border-color: rgb(255, 255, 255);
     border: none;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
     color:rgb(255, 255, 255);
-
+    overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
 }
-
-
-
-#homepage, #plans, #links
+#homepage:hover, #contacts:hover, #links:hover, #plans:hover, #news:hover, #change:hover
 {
-    margin-top:10px;
-    margin-left:auto;
-    margin-right:auto;
-    padding: 40px 40px;
-    background-color:#0056b9;
-    border-color: rgb(255, 255, 255);
-    border: none;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
-    color:rgb(255, 255, 255);
-}
-
-#homepage:hover 
-{
-        box-shadow: 0 0 10px 0 #000000 inset;
-}
-#contacts:hover 
-{
-        box-shadow: 0 0 10px 0 #000000 inset;
-}
-#links:hover 
-{
-        box-shadow: 0 0 10px 0 #000000 inset;
-}
-#plans:hover 
-{
-        box-shadow: 0 0 10px 0 #000000 inset;
-}
-#news:hover 
-{
-        box-shadow: 0 0 10px 0 #000000 inset;
-}
-
-
-
-#change_user
-{
-    display: flex;
-}
-#change
-{
-margin-top: 10px;
-margin-left: auto;
-margin-right: 9px;
-padding: 10px 45px;
-background-color:#00bcef;
-border-color: rgb(255, 255, 255);
-border: none;
--webkit-transition: all 150ms ease-in-out;
-transition: all 150ms ease-in-out;
-color:rgb(255, 255, 255);
-}
-#change:hover 
-{
-    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #3498db;
+        box-shadow: 0 0 30px 1px #10009e inset;
 }
 
 #send
@@ -115,10 +62,9 @@ color:rgb(255, 255, 255);
 
 #heading
 {
-margin-top: 10px;
-margin-right: auto;
-padding: 10px 0px;
+padding: 10px;
 color: rgb(0, 0, 0);
+text-align: center;
 overflow: hidden;
 white-space: nowrap;
 text-overflow: ellipsis;
